@@ -3,20 +3,27 @@
     <head>
         <title>Search</title>
         <style>
-            .element {
-                width: 200px; 
-                margin-left: auto; 
-                margin-right: auto
+            .image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
             }
         </style>
     </head>
-    <body>
-        <div class="element">
-            <img src="google.png">
+    <body class="image">
+        <div>
+            <img src="google.png" >
         </div>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div>
+            <form action="https://www.google.com/search">
+            <div> 
+                <input type="text" name="q">
+            </div>
+            <div> 
+                <input type="submit" value="Google Search">
+            </div>    
+            </form>
+        </div>
     </body>
 </html>
