@@ -13,11 +13,15 @@
 
         .navcontainer {
             border: 1px solid black;
+            top:0px;
+            position: sticky;
         }
 
         .uibar {
             list-style: none;
             background-color: rgb(175, 110, 236);
+            display:inherit;
+            
         }
 
         .liobject {
@@ -53,13 +57,21 @@
 
         .fixcircle {
             position: fixed;
-            border-radius: 16px;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
             border: 1px solid black;
             background-color: #bfa1a1;
             top: 264px;
             right: 29px;
         }
-
+        
+        .lowercontainer{
+            border: 1px solid black;
+            display: block;
+            height: 50vh;
+            background-color: bisque;
+        }
         .footerbar {
             border: 1px solid black;
         }
@@ -86,6 +98,9 @@
     </div>
     <div class="fixcircle">
         I am the circle
+    </div>
+    <div class="lowercontainer">
+        <p>Boy gotta earn his livings.</p>
     </div>
     <div class="footerbar">
         <ui class="uibar">
